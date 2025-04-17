@@ -6,12 +6,12 @@
 
 Hemos descargado una base de datos en formato .csv el cual constaba de diferentes columnas y mas de 2.000 lineas que hemos utilizado para realizar un análisis visual de los datos.
 
-**-Rank:** Valores únicos.
-**-Name:** Nombre del videojuego
-**-Platform:** Plataforma
-**-Year:** Año
-**-Genre:** Género del videojuego
-**-Publisher:** Distribuidora
+**-Rank:** Valores únicos.  
+**-Name:** Nombre del videojuego  
+**-Platform:** Plataforma  
+**-Year:** Año  
+**-Genre:** Género del videojuego  
+**-Publisher:** Distribuidora  
 
 NA=USA
 EU=Europa
