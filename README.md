@@ -13,31 +13,32 @@ Hemos descargado una base de datos en formato .csv el cual constaba de diferente
 **-Genre:** Género del videojuego  
 **-Publisher:** Distribuidora  
 
-NA=USA
-EU=Europa
-JP= Japón
-Other= Otras regiones
-Global Sales= Total Ventas
+NA=USA  
+EU=Europa  
+JP= Japón  
+Other= Otras regiones  
+Global Sales= Total Ventas  
 
-Link directo:
-<https://www.kaggle.com/datasets/gregorut/videogamesales>
+Link directo:  
+<https://www.kaggle.com/datasets/gregorut/videogamesales>  
 
 ## 3. Descripción del Proyecto y pasos
-Hemos empezado exportando el archivo en formato .csv. Hemos decidido trabajar con todas las columnas sin eliminar ninguna. El objetivo es analizar las ventas centrandonos mayoritariamente por el género. Para ello podreos ver la evolución de la venta por genero dependiendo de diferentes variables.
-En la parte del analisis analizaos las ventas a nivel global y despues analizamos las ventas por genero pero incluyendo otras variables (plataforma, distirbuidora..)
+Hemos empezado exportando el archivo en formato .csv. Hemos decidido trabajar con todas las columnas sin eliminar ninguna. El objetivo es analizar las ventas centrandonos  
+ mayoritariamente por el género. Para ello podreos ver la evolución de la venta por genero dependiendo de diferentes variables.  
+En la parte del analisis analizaos las ventas a nivel global y despues analizamos las ventas por genero pero incluyendo otras variables (plataforma, distirbuidora..)  
 
-Para la limpieza y transformación:
+Para la limpieza y transformación:  
 
-Hemos revisado y elimiinado los duplicados
-Hemos visto que hay algunas combinaciones o celdas blank, pero valoramos dejar los ceros, ya que son juegos que quizásen una región no se han vendido pero en otras si.
-Hemos Garantizado que en las columnas de Ranking, name y genero no dentamos vacíos.
-Hemos eliminado aquellos juegos que no tienen un año indicado. No eran muchas lineas(realtivo poco impacto) y no eran utiles para nuestro análisis.
+Hemos revisado y elimiinado los duplicados  
+Hemos visto que hay algunas combinaciones o celdas blank, pero valoramos dejar los ceros, ya que son juegos que quizásen una región no se han vendido pero en otras si.  
+Hemos Garantizado que en las columnas de Ranking, name y genero no dentamos vacíos.  
+Hemos eliminado aquellos juegos que no tienen un año indicado. No eran muchas lineas(realtivo poco impacto) y no eran utiles para nuestro análisis.  
 
-Sabemos como realizar un analisis perfecto, pero para esta base de datos en cuestión,
-No hemos sacado media, mediana o percentiles ya que solo tenemos datos cualitativos y no encontro el sentido de sacar la media de ventas por plataforma o genero…
-Ademas desconocemos si tenemos para cada año la totalidad de las ventas o solo una parte representativa (sospechamos que solo e suna representación)
+Sabemos como realizar un analisis perfecto, pero para esta base de datos en cuestión,  
+No hemos sacado media, mediana o percentiles ya que solo tenemos datos cualitativos y no encontro el sentido de sacar la media de ventas por plataforma o genero…  
+Ademas desconocemos si tenemos para cada año la totalidad de las ventas o solo una parte representativa (sospechamos que solo e suna representación)  
 
-Las ventas se representan en millones de dolares y hemos decidido simplemente en la zona del dashbboard y analisis dejar la palabra M para que se tenga constancia
+Las ventas se representan en millones de dolares y hemos decidido simplemente en la zona del dashbboard y analisis dejar la palabra M para que se tenga constancia  
 
 
 
