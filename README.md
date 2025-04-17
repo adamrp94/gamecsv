@@ -22,12 +22,15 @@ Global Sales= Total Ventas
 Link directo:  
 <https://www.kaggle.com/datasets/gregorut/videogamesales>  
 
-## 3. Descripción del Proyecto y pasos
+## 3. Descripción del Proyecto y pasos 📖
+
+Este proyecto realiza un análisis exploratorio de las ventas en el sector de los videojuegos. El objetivo es identificar patrones o cuales son los generos mas exitosos.  
+
 Hemos empezado exportando el archivo en formato .csv. Hemos decidido trabajar con todas las columnas sin eliminar ninguna. El objetivo es analizar las ventas centrandonos  
  mayoritariamente por el género. Para ello podreos ver la evolución de la venta por genero dependiendo de diferentes variables.  
 En la parte del analisis analizaos las ventas a nivel global y despues analizamos las ventas por genero pero incluyendo otras variables (plataforma, distirbuidora..)  
 
-Para la limpieza y transformación:  
+<u>Para la limpieza y transformación:<u>  
 
 Hemos revisado y elimiinado los duplicados  
 Hemos visto que hay algunas combinaciones o celdas blank, pero valoramos dejar los ceros, ya que son juegos que quizásen una región no se han vendido pero en otras si.  
@@ -38,29 +41,28 @@ Sabemos como realizar un analisis perfecto, pero para esta base de datos en cues
 No hemos sacado media, mediana o percentiles ya que solo tenemos datos cualitativos y no encontro el sentido de sacar la media de ventas por plataforma o genero…  
 Ademas desconocemos si tenemos para cada año la totalidad de las ventas o solo una parte representativa (sospechamos que solo e suna representación)  
 
-Las ventas se representan en millones de dolares y hemos decidido simplemente en la zona del dashbboard y analisis dejar la palabra M para que se tenga constancia  
+Las ventas se representan en millones de dolares y hemos decidido simplemente en la zona del dashbboard y analisis dejar la palabra M para que se tenga constancia.   
+
+En la Base de datos inicial, los datos llegan hasta el 2020 pero hemos detectado que desde el 2010 no está bien actualizada o mantenida ya que no hay datos para determinados años (lo cual es imposible). Es por eos que hemos decidido hacer el analisis hasta el 2010 y así tener 3 decadas.
 
 
 
-Menciona brevemente el contexto del análisis y qué problema estás
-resolviendo.
-Incluye qué técnicas o enfoques se usaron para llevar a cabo el análisis.
 Ejemplo: 📖 Descripción
 Este proyecto realiza un análisis exploratorio y predictivo de las ventas de una
 empresa minorista. El objetivo es identificar tendencias, patrones y realizar
 predicciones basadas en datos históricos usando técnicas de modelado
 estadístico.
 
-## 4. Estructura del Proyecto
+## 4. Estructura del Proyecto 📝 
 
-🗂 Estructura del Proyecto
-├── videogameanalysis.xlsx # Excel file
-├── README.md # Descripción del proyecto
+🗂 Estructura del Proyecto  
+├── videogameanalysis.xlsx # Excel file  
+├── README.md # Descripción del proyecto  
 
-## 5. Instalación y Requisitos
-Nada es necesario, simplemente acceso y cuenta de Microsoft para Excel.
+## 5. Instalación y Requisitos 🔧
+Nada es necesario, simplemente acceso y cuenta de Microsoft para Excel.  
 
-## 6. Resultados y Conclusiones
+## 6. Resultados y Conclusiones🔍
 
 Presenta un resumen de los hallazgos más importantes.
 Puedes incluir gráficos o tablas relevantes que apoyen las conclusiones.
@@ -75,14 +77,4 @@ noviembre y diciembre.
 futuras.
 - El análisis sugiere que los descuentos y promociones tienen un impacto
 directo en el comportamiento de compra de los clientes.
-6. Próximos Pasos
-Si el proyecto sigue en desarrollo, menciona qué queda por hacer o
-mejorar.
-También puedes mencionar ideas para futuros análisis o expansiones del
-proyecto.
-Ejemplo:
-🔄 Próximos Pasos
-- Refinar el modelo predictivo usando más datos históricos.
-- Implementar técnicas avanzadas de feature engineering para mejorar la
-precisión.
-- Explorar el impacto de factores externos como cam
+
