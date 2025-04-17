@@ -1,12 +1,46 @@
 # gamecsv
 
-📋 Estructura Básica de un README
-1. Título del Proyecto
-Debe ser breve y descriptivo.
-Incluye un emoji o un subtítulo para darle un toque personal.
-Ejemplo: 📊 Análisis de Ventas: Exploración y Modelado de Datos
-2. Descripción del Proyecto
-Explica en qué consiste tu proyecto y cuál es su objetivo.
+# 📊 Analisis del sector de los videojuegos: Exploración y Modelado de Datos
+
+## 2. Introducción
+
+Hemos descargado una base de datos en formato .csv el cual constaba de diferentes columnas y mas de 2.000 lineas que hemos utilizado para realizar un análisis visual de los datos.
+
+**-Rank:** Valores únicos.
+**-Name:** Nombre del videojuego
+**-Platform:** Plataforma
+**-Year:** Año
+**-Genre:** Género del videojuego
+**-Publisher:** Distribuidora
+
+NA=USA
+EU=Europa
+JP= Japón
+Other= Otras regiones
+Global Sales= Total Ventas
+
+Link directo:
+<https://www.kaggle.com/datasets/gregorut/videogamesales>
+
+## 3. Descripción del Proyecto y pasos
+Hemos empezado exportando el archivo en formato .csv. Hemos decidido trabajar con todas las columnas sin eliminar ninguna. El objetivo es analizar las ventas centrandonos mayoritariamente por el género. Para ello podreos ver la evolución de la venta por genero dependiendo de diferentes variables.
+En la parte del analisis analizaos las ventas a nivel global y despues analizamos las ventas por genero pero incluyendo otras variables (plataforma, distirbuidora..)
+
+Para la limpieza y transformación:
+
+Hemos revisado y elimiinado los duplicados
+Hemos visto que hay algunas combinaciones o celdas blank, pero valoramos dejar los ceros, ya que son juegos que quizásen una región no se han vendido pero en otras si.
+Hemos Garantizado que en las columnas de Ranking, name y genero no dentamos vacíos.
+Hemos eliminado aquellos juegos que no tienen un año indicado. No eran muchas lineas(realtivo poco impacto) y no eran utiles para nuestro análisis.
+
+Sabemos como realizar un analisis perfecto, pero para esta base de datos en cuestión,
+No hemos sacado media, mediana o percentiles ya que solo tenemos datos cualitativos y no encontro el sentido de sacar la media de ventas por plataforma o genero…
+Ademas desconocemos si tenemos para cada año la totalidad de las ventas o solo una parte representativa (sospechamos que solo e suna representación)
+
+Las ventas se representan en millones de dolares y hemos decidido simplemente en la zona del dashbboard y analisis dejar la palabra M para que se tenga constancia
+
+
+
 Menciona brevemente el contexto del análisis y qué problema estás
 resolviendo.
 Incluye qué técnicas o enfoques se usaron para llevar a cabo el análisis.
@@ -15,30 +49,18 @@ Este proyecto realiza un análisis exploratorio y predictivo de las ventas de un
 empresa minorista. El objetivo es identificar tendencias, patrones y realizar
 predicciones basadas en datos históricos usando técnicas de modelado
 estadístico.
-3. Estructura del Proyecto
-Describe la organización de los archivos y carpetas en tu proyecto.
-📝 Guía para Escribir un Buen README en Nuestros Proyectos 2
-Esto ayuda a otros usuarios a navegar y entender mejor el flujo de trabajo.
-Ejemplo:
+
+## 4. Estructura del Proyecto
+
 🗂 Estructura del Proyecto
-├── data/ # Datos crudos y procesados
-├── notebooks/ # Notebooks de Jupyter con el análisis
-├── src/ # Scripts de procesamiento y modelado
-├── results/ # Gráficos y archivos de resultados
+├── videogameanalysis.xlsx # Excel file
 ├── README.md # Descripción del proyecto
-4. Instalación y Requisitos
-Lista las bibliotecas, herramientas o dependencias necesarias para ejecutar
-tu proyecto.
-Proporciona instrucciones para instalar las dependencias, idealmente
-usando un entorno virtual.
-Ejemplo:
-🛠 Instalación y Requisitos
-Este proyecto usa Python 3.8 y requiere las siguientes bibliotecas:
-- pandas
-- numpy
-- matplotlib
-- seaborn
-5. Resultados y Conclusiones
+
+## 5. Instalación y Requisitos
+Nada es necesario, simplemente acceso y cuenta de Microsoft para Excel.
+
+## 6. Resultados y Conclusiones
+
 Presenta un resumen de los hallazgos más importantes.
 Puedes incluir gráficos o tablas relevantes que apoyen las conclusiones.
 Explica cómo los resultados pueden ser útiles para los usuarios o
