@@ -1,10 +1,9 @@
-# gamecsv
 
-# 📊 Analisis del sector de los videojuegos: Exploración y Modelado de Datos
+# 📊🎮Analisis del sector de los videojuegos: Exploración y Modelado de Datos
 
-## 2. Introducción
+## 2. Introducción 📄 
 
-Hemos descargado una base de datos en formato .csv el cual constaba de diferentes columnas y mas de 2.000 lineas que hemos utilizado para realizar un análisis visual de los datos.
+Hemos descargado una base de datos en formato .csv del link indicado más abajo, el cual constaba de diferentes columnas y mas de 2.000 lineas que hemos utilizado para realizar un análisis visual de los datos. No es la mejor base de datos que pudiesemos utilizar debido a que hay muchos datos cualitativos (caracteristicas, descripciones...) que no cuantitativos(medibles y númericos) pero he considerado interesante igual ver como sería posible visualizar los datos y sacar algunas conclusiones solamente con lo existente.
 
 **-Rank:** Valores únicos.  
 **-Name:** Nombre del videojuego  
@@ -26,55 +25,72 @@ Link directo:
 
 Este proyecto realiza un análisis exploratorio de las ventas en el sector de los videojuegos. El objetivo es identificar patrones o cuales son los generos mas exitosos.  
 
-Hemos empezado exportando el archivo en formato .csv. Hemos decidido trabajar con todas las columnas sin eliminar ninguna. El objetivo es analizar las ventas centrandonos  
- mayoritariamente por el género. Para ello podreos ver la evolución de la venta por genero dependiendo de diferentes variables.  
-En la parte del analisis analizaos las ventas a nivel global y despues analizamos las ventas por genero pero incluyendo otras variables (plataforma, distirbuidora..)  
+Hemos empezado exportando el archivo en formato .csv. 
+Hemos decidido trabajar con todas las columnas sin eliminar ninguna. El objetivo es analizar las ventas centrandonos mayoritariamente por el género. 
+Para ello podremos ver la evolución de la venta por genero dependiendo de diferentes variables.  
+En la parte del análisis, analizamos las ventas a nivel global y despues analizamos las ventas por género pero incluyendo otras variables (plataforma, distribuidora...)  
 
 <u>Para la limpieza y transformación:<u>  
 
-Hemos revisado y elimiinado los duplicados  
-Hemos visto que hay algunas combinaciones o celdas blank, pero valoramos dejar los ceros, ya que son juegos que quizásen una región no se han vendido pero en otras si.  
-Hemos Garantizado que en las columnas de Ranking, name y genero no dentamos vacíos.  
-Hemos eliminado aquellos juegos que no tienen un año indicado. No eran muchas lineas(realtivo poco impacto) y no eran utiles para nuestro análisis.  
+-Hemos revisado y elimiinado los duplicados.
+-Hemos visto que hay algunas combinaciones o celdas "blank", pero valoramos dejar los ceros, ya que son juegos que quizásen en una región no se han vendido pero en otras si. -Hemos garantizado que en las columnas de Ranking, name y género no tengamos vacíos.  
+-Hemos eliminado aquellos juegos que no tienen un año indicado >> No eran muchas lineas(realtivo poco impacto) y no eran utiles para nuestro análisis.  
 
 Sabemos como realizar un analisis perfecto, pero para esta base de datos en cuestión,  
-No hemos sacado media, mediana o percentiles ya que solo tenemos datos cualitativos y no encontro el sentido de sacar la media de ventas por plataforma o genero…  
-Ademas desconocemos si tenemos para cada año la totalidad de las ventas o solo una parte representativa (sospechamos que solo e suna representación)  
+-No hemos sacado media, mediana o percentiles ya que praticamente solo tenemos datos cualitativos y no encuentro el sentido de sacar la media de ventas por plataforma o género y uno de los motivos es porque desconocemos si tenemos para cada año la totalidad de las ventas o solo una parte representativa (sospechamos que solo es una representación ya que en la base original no había datos por ejemplo para los años 2018)  
 
-Las ventas se representan en millones de dolares y hemos decidido simplemente en la zona del dashbboard y analisis dejar la palabra M para que se tenga constancia.   
+Las ventas se representan en millones de dolares y hemos decidido simplemente en la zona del dashbboard y análisis dejar la palabra M para que se tenga constancia.   
 
-En la Base de datos inicial, los datos llegan hasta el 2020 pero hemos detectado que desde el 2010 no está bien actualizada o mantenida ya que no hay datos para determinados años (lo cual es imposible). Es por eos que hemos decidido hacer el analisis hasta el 2010 y así tener 3 decadas.
+En la Base de datos inicial, los datos llegan hasta el 2020 pero hemos detectado que desde el 2010 no está bien actualizada o mantenida ya que no hay datos para determinados años (lo cual es imposible). Es por eso que hemos decidido hacer el analisis hasta el 2010 y así tener 3 decadas.
 
+Hemos representado los datos:
+Ventas por región (USA, EU y Japón las mas importantes, lo restante para resto de regiones)
+Ventas por género 
+Ventas por género y plataforma
+Juegos mas vendidos
+Ventas por año (de lo que tenemos)
+zona top 5 para hacer mas visual las ventas por Género, Plataforma y Distribuidora.
 
-
-Ejemplo: 📖 Descripción
-Este proyecto realiza un análisis exploratorio y predictivo de las ventas de una
-empresa minorista. El objetivo es identificar tendencias, patrones y realizar
-predicciones basadas en datos históricos usando técnicas de modelado
-estadístico.
+Filtros para regiones y años
 
 ## 4. Estructura del Proyecto 📝 
 
 🗂 Estructura del Proyecto  
-├── videogameanalysis.xlsx # Excel file  
+├── videogameanalysis.xlsx # Excel file mostrando lo necesario
+├── video game sales.csv # Archivo original
 ├── README.md # Descripción del proyecto  
 
 ## 5. Instalación y Requisitos 🔧
-Nada es necesario, simplemente acceso y cuenta de Microsoft para Excel.  
+Ningún complemento o programa es necesario. Simplemente acceso y cuenta de Microsoft para Excel.  
 
 ## 6. Resultados y Conclusiones🔍
 
-Presenta un resumen de los hallazgos más importantes.
-Puedes incluir gráficos o tablas relevantes que apoyen las conclusiones.
-Explica cómo los resultados pueden ser útiles para los usuarios o
-tomadores de decisiones.
-Ejemplo:
-📊 Resultados y Conclusiones
-📝 Guía para Escribir un Buen README en Nuestros Proyectos 3
-- Identificamos un aumento estacional en las ventas durante los meses de
-noviembre y diciembre.
-- El modelo predictivo alcanzó un 85% de precisión en la estimación de ventas
-futuras.
-- El análisis sugiere que los descuentos y promociones tienen un impacto
-directo en el comportamiento de compra de los clientes.
 
+➡️En todas las regiones el género mas vendido es el de "acción" salvo para el conjunto de otras regiones que es el "role play".  
+Sin embargo Other regions sin filtros aplicados demuestra que es la zona del planeta con menos ventas comparativamente hablando respecto los grandes mercados de Estados Unidos, Japón y Europa, por lo cual es un dato importante saber que el género de acción es el mas importante donde mas ventas se producen. Conclusión: las probabilidades de tener más exito si distribuimos un juego de acción en los mercados es más alta respecto al resto.
+
+- El análisis sugiere que el género tienen un impacto directo en el comportamiento de compra de los clientes.  
+
+➡️🔝En Estados Unidos y Europa el juego con más exito ha sido Wii Sports. Para Japón: Pokemón y para el resto de regiones Gran Thef Auto: San Andreas.  
+➡️La Plataforma con más éxito ha sido la Play Station 2 (PS2).  
+➡️La distribuidora con más éxtio ha sido Nintendo.  
+
+➡️💰Las ventas no han dejado de ascender desde el dato que tenemos de 1980, con importantes picos en el 1996 y 2006. Posibles motivos:
+
+Año 1996: Transición a las 3D y títulos icónicos.  
+Lanzamiento de la Nintendo 64: Introdujo gráficos tridimensionales avanzados y juegos innovadores como Super Mario 64, que redefinieron la experiencia de juego.  ​
+Éxito de la PlayStation: Con títulos como Resident Evil, Crash Bandicoot y Tomb Raider, Sony consolidó su posición en el mercado, atrayendo a una amplia audiencia.​  
+Introducción de franquicias duraderas: El debut de Pokémon en Japón marcó el inicio de una de las series más exitosas en la historia de los videojuegos.  
+
+Año 2006: Nueva generación de consolas y expansión del mercado caracterizado por:​  
+
+Lanzamiento de consolas de nueva generación:  
+Nintendo Wii: Con su innovador control de movimiento, atrajo a un público más amplio, incluyendo a jugadores casuales y familias.  
+PlayStation 3 y Xbox 360: Ofrecieron mejoras gráficas y funciones en línea, elevando la experiencia de juego.​  
+Ventas récord: las ventas en EE. UU. alcanzaron los $12.5 mil millones, un aumento del 19% respecto al año anterior.  
+
+➡️Se observa lógicamente como para los primeros años las plataformas con más exito eran Atari y Activision. Las cuales en la actualidad han pérdido cuota de mercado.
+
+➡️📈A lo largo de los años el mercado siempre con mas ventas siempre ha sido USA!
+
+Próximos pasos: Se podría añadir datos fiables para los siguientes años de fuentes oficiales si existiesen.
